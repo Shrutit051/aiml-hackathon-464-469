@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NewsGuard | Fake News Detector</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="nav-left">
+      <span class="logo-icon">🛡️</span>
+      <span class="logo-text">NewsGuard</span>
+    </div>
+    <nav class="nav-links">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Main Section -->
+  <main id="home" class="main-section">
+    <div class="title-container">
+      <h1>Fake News Detector 📰</h1>
+      <p>Verify the truth in seconds using Artificial Intelligence</p>
+    </div>
+
+    <div class="card">
+      <label for="news-input">Enter a news headline or article text below:</label>
+      <textarea id="news-input" placeholder="Paste your news article or headline here..."></textarea>
+      <button id="check-btn">Check Authenticity</button>
+      <div id="result" class="result-box hidden"></div>
+    </div>
+  </main>
+
+  <!-- About Section -->
+  <section id="about" class="about-section">
+    <h2>About This Project</h2>
+    <div class="about-cards">
+      <div class="about-card">
+        <div class="icon">֎</div>
+        <h3>AI-Powered</h3>
+        <p>Advanced machine learning algorithms analyze linguistic patterns.</p>
+      </div>
+      <div class="about-card">
+        <div class="icon">➸</div>
+        <h3>Deep Analysis</h3>
+        <p>Natural Language Processing examines text structure and credibility.</p>
+      </div>
+      <div class="about-card">
+        <div class="icon">✔</div>
+        <h3>Instant Verification</h3>
+        <p>Get real-time results with confidence scores in seconds.</p>
+      </div>
+    </div>
+
+    <div class="how-it-works">
+      <h3>How It Works</h3>
+      <p>
+        This tool uses <b>Natural Language Processing</b> and <b>Machine Learning</b> 
+        to classify online news articles as real or fake, based on linguistic 
+        patterns and source credibility.
+      </p>
+      <p>
+        Our AI model has been trained on thousands of verified news articles 
+        to identify common patterns in misinformation. Simply paste any news 
+        headline or article, and receive an instant authenticity assessment 
+        with a confidence score.
+      </p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer id="contact" class="footer">
+    <p>
+      Developed by <b>Siddhi Vaidya</b> & <b>Shruti Thakur</b><br>
+      AIML Mini Project | TY A2 - Submission 2025
+    </p>
+  </footer>
+</body>
+</html>
